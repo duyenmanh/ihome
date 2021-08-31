@@ -1,0 +1,96 @@
+.image-header{
+    width: 100%;
+    height: 100%;
+}
+.bg-breadcumb{
+    background-color: #e8ebf1;
+    overflow: hidden;
+    height: 42px;
+}
+.bg-breadcumb ol:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 22px solid #e8ebf1;
+    border-left: 20px solid #164e62;
+    border-bottom: 20px solid #e8ebf1;
+    width: 0;
+
+}
+.bg-breadcumb a{
+    color: white;
+    text-decoration: none;
+}
+.breadcrumbs ol li:hover a{
+    color: #fff358;
+}
+.bg-breadcumb ol{
+    background-color: #164e62;
+    position: relative;
+    width: 12%;
+    height: 42px;
+    padding-top: 7px;
+}
+.bg-breadcumb li{
+    color: white;
+}
+.contact{
+    padding-top: 2%;
+}
+.info-contact h1{
+    font-size: 21px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #000;
+    line-height: 20px;
+}
+.info-contact p{
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+}
+.form-dk-contact label, input, textarea{
+    width: 100%;
+    display: block;
+}
+.form-dk-contact label{
+    color: #006c5c;
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.form-dk-contact input, textarea{
+    border: 1px solid #b0b0b0;
+    border-radius: 2px;
+    color: black;
+    margin-bottom: 20px;
+}
+.form-dk-contact input{
+    padding-left: 12px;
+    padding-right: 12px;
+    min-height: 50px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.form-dk-contact  button{
+    height: 38px;
+    line-height: 38px;
+    width: 150px;
+    color: white;
+    background: #32b1ec;
+    text-align: center;
+    border: 1px solid #32b1ec;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+@media screen {
+    .bg-breadcumb ol {
+        background-color: #164e62;
+        position: relative;
+        width: 62%;
+        height: 42px;
+        padding-top: 7px;
+    }
+}

@@ -1,0 +1,127 @@
+.bg-breadcumb1{
+    margin-top: 10%;
+    width: 100%;
+}
+.bg-breadcumb1 ul{
+    margin: 0;
+    padding: 0;
+}
+.bg-page{
+    padding-bottom: 2%;
+}
+.bg-page li{
+    margin-top: 8px;
+    margin-left: 26px;
+}
+.bg-page > ul > li{
+    display: inline-block;
+
+}
+
+.bg-breadcumb1 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.bg-breadcumb1 a:hover{
+    transition: 1s;
+    color: #ecc753;
+}
+.bg-page ul{
+    background-color: #164e62;
+    position: relative;
+    width: 40%;
+    height: 42px;
+
+}
+.bg-page ul:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 22px solid white;
+    border-left: 20px solid #164e62;
+    border-bottom: 20px solid white;
+    width: 0;
+}
+.sl-comment{
+    height: 27px;
+}
+.form-dk-blog{
+    color: #fff;
+    background: #3a737f;
+    padding: 25px 35px;
+    margin-bottom: 15px;
+}
+
+.form-dk-blog h3{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px auto;
+    max-width: 650px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.form-dk-blog label{
+    font-weight: normal;
+}
+.form-dk-blog label, input{
+    width: 100%;
+    display: block;
+}
+.form-dk-blog input{
+    background: #0a596a;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    color: white;
+}
+.form-dk-blog button{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #ffbf0e;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
+.form-dk-blog button:hover{
+    background: #f6b500;
+}
+.next-page{
+    margin-top: -10%;
+}
+#menu-down{
+    display: none;
+}
+.text-home1{
+    display: none;
+}
+@media screen and (max-width: 375px){
+    nav{
+        display: block;
+    }
+    .text-home1{
+        display: block;
+    }
+    .text-home{
+        display: none;
+    }
+    .bg-page ul {
+        background-color: #164e62;
+
+        width: 98%;
+        height: 42px;
+    }
+}
+@media screen and (max-width: 768px){
+    .bg-page ul{
+        width: 95%;
+    }
+}
