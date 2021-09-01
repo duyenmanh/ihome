@@ -155,3 +155,12 @@
         width: 43%;
     }
 }
+@media (max-width: 1024px) {
+    .bg-breadcumb ol {
+        background-color: #164e62;
+        position: relative;
+        width: 30%;
+        height: 42px;
+        padding-top: 11px;
+    }
+}

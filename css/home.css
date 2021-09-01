@@ -202,7 +202,7 @@ body{
 }
 span{
     margin-top: 1%;
-    padding-top: 9%;
+    padding-top: 5%;
 }
 .logo{
     padding-left: 92%;
@@ -885,7 +885,30 @@ span{
         margin-right: -1%;
         margin-left: -19%;
     }
-
+}
+@media ( max-width: 1024px) {
+    .menu {
+        margin-left: -6%;
+        padding-top: 5%;
+    }
+    .why-choose-me {
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .caption a, .box-product-two a{
+        font-size: 18px;
+    }
+    .img-title1 {
+        margin-top: -5%;
+        margin-left: 11%;
+    }
+    .img-title {
+        margin-top: -10%;
+        margin-left: 12%;
+    }
+    .facebook {
+        width: 250px;
+    }
 }
 .img-title{
     margin-top: -10%;

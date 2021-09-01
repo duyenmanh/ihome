@@ -125,3 +125,11 @@
         width: 95%;
     }
 }
+@media (max-width: 1024px) {
+    .bg-page ul {
+        background-color: #164e62;
+        position: relative;
+        width: 82%;
+        height: 42px;
+    }
+}
